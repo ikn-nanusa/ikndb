@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <div class="row mb-2">
         <div class="col-sm-6">
-          <h1 class="m-0">Database Jemaat</h1>
+          <h1 class="m-0">Database Anggota</h1>
         </div><!-- /.col -->
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
@@ -35,10 +35,11 @@
                           <tr>
                             <th>No</th>
                             <th>Nama</th>
-                            <th>Tempat Lahir</th>
+                            <th>Tpt Lahir</th>
                             <th>Tgl Lahir</th>
                             <th>Usia</th>
                             <th>Alamat</th>
+                            <th>Mobile</th>
                             <th>Gender</th>
                             <th>G.Darah</th>
                             <th>Pendidikan</th>
@@ -64,6 +65,7 @@
                               <td><?php echo $jmt['tglahir'] ? date("d M Y", strtotime($jmt['tglahir'])) : '' ?></td>
                               <td><?php echo $jmt['usia']; ?></td>
                               <td><?php echo $jmt['alamat']; ?></td>
+                              <td><?php echo $jmt['mobile']; ?></td>
                               <td><?php echo $jmt['gender']; ?></td>
                               <td><?php echo $jmt['goldarah']; ?></td>
                               <td><?php echo $jmt['pendidikan']; ?></td>
@@ -75,7 +77,7 @@
                               <td>
                                 <div class="btn-group" role="group">
                                   <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Kelola
+                                    >
                                   </button>
                                   <?php if ($_SESSION['level'] == 'admin') {
                                     include('menu/admin_jbtn.php');
@@ -100,13 +102,11 @@
                           <tr>
                             <th>No</th>
                             <th>Nama</th>
-                            <th>Tempat Lahir</th>
                             <th>Tgl Lahir</th>
                             <th>Usia</th>
                             <th>Alamat</th>
                             <th>Gender</th>
                             <th>G.Darah</th>
-                            <th>Pendidikan</th>
                             <th>Pekerjaan</th>
                             <th>Keluarga</th>
                             <th>Posisi</th>
@@ -125,13 +125,11 @@
                             <tr>
                               <td><?php echo $no; ?></td>
                               <td><?php echo $jmt['nama']; ?></td>
-                              <td><?php echo $jmt['tplahir']; ?></td>
                               <td><?php echo $jmt['tglahir'] ? date("d M Y", strtotime($jmt['tglahir'])) : '' ?></td>
                               <td><?php echo $jmt['usia']; ?></td>
                               <td><?php echo $jmt['alamat']; ?></td>
                               <td><?php echo $jmt['gender']; ?></td>
                               <td><?php echo $jmt['goldarah']; ?></td>
-                              <td><?php echo $jmt['pendidikan']; ?></td>
                               <td><?php echo $jmt['pekerjaan']; ?></td>
                               <td><?php echo $jmt['keluarga']; ?></td>
                               <td><?php echo $jmt['posisi']; ?></td>
@@ -256,11 +254,11 @@
           <div style="display: flex; justify-content: flex-end" class="center">
             <tr>
               <p>
-                <td><b><i>Cari Jemaat Berdasar Usia</i></b></td>&nbsp&nbsp:&nbsp&nbsp
+                <td><b><i>Cari Anggota Berdasar Usia</i></b></td>&nbsp&nbsp:&nbsp&nbsp
                 <td><input type="text" id="min" name="min" placeholder=" Batas Umur Awal"></td>&nbsp - &nbsp
                 <td><input type="text" id="max" name="max" placeholder=" Batas Umur Akhir"></td>&nbsp | &nbsp
                 <td><button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-lg">
-                    Add Jemaat
+                    Add Anggota
                   </button></td>
               </p>
             </tr>
@@ -299,7 +297,7 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title">Data Jemaat</h4>
+          <h4 class="modal-title">Data Anggota</h4>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -374,7 +372,7 @@
                 </select>
               </div>
               <div class="form-group col-md-4">
-                <label for="stat_jmt">Status Jemaat</label>
+                <label for="stat_jmt">Status Anggota</label>
                 <select class="custom-select" name="stat_jmt">
                   <option value="Aktif">Aktif</option>
                   <option value="Tidak Aktif">Tidak Aktif</option>

@@ -20,8 +20,14 @@ if (isset($_GET['page'])) {
     include('pages/kartu.php');
   } else if ($_GET['page'] == 'sakit') {
     include('pages/sakit.php');
-  } else if ($_GET['page'] == 'test') {
-    include('pages/jemaat_1.php');
+  } else if ($_GET['page'] == 'ibadah') {
+    include('pages/ibadah.php');
+  } else if ($_GET['page'] == 'edit_ibadah') {
+    include('manage/edit_ibadah.php');
+  } else if ($_GET['page'] == 'perayaan') {
+    include('pages/perayaan.php');
+  } else if ($_GET['page'] == 'edit_perayaan') {
+    include('manage/edit_perayaan.php');
   } else if ($_GET['page'] == 'errpage') {
     include('pages/errpage.php');
   } else {

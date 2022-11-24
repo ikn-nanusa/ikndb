@@ -17,7 +17,7 @@ $view = mysqli_fetch_array($query);
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">CMS | Mahanaim</h1>
+                    <h1 class="m-0">DB Nanusa</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -37,7 +37,7 @@ $view = mysqli_fetch_array($query);
         <div class="container-fluid">
             <div class="card card-warning">
                 <div class="card-header">
-                    <h3 class="card-title">Edit Data Jemaat</h3>
+                    <h3 class="card-title">Edit Data Anggota</h3>
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">

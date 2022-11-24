@@ -69,15 +69,15 @@
                                </a>
                                <ul class="nav nav-treeview">
                                    <li class="nav-item">
-                                       <a href="index.php?page=jemaat" class="nav-link">
+                                       <a href="index.php?page=ibadah" class="nav-link">
                                            <i class="far fa-circle nav-icon"></i>
-                                           <p>Ibadah Rutin</p>
+                                           <p>Ibadah</p>
                                        </a>
                                    </li>
                                    <li class="nav-item">
-                                       <a href="index.php?page=keluarga" class="nav-link">
+                                       <a href="index.php?page=perayaan" class="nav-link">
                                            <i class="far fa-circle nav-icon"></i>
-                                           <p>Ibadah Khusus</p>
+                                           <p>Perayaan</p>
                                        </a>
                                    </li>
                                    <li class="nav-item">

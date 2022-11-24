@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>GMIST MAHANAIM - Catatan Sakit</title>
+    <title>Ikatan Keluarga Nanusa - Catatan Sakit</title>
     <?php
     session_start();
     if (!isset($_SESSION['nama_adm'])) {

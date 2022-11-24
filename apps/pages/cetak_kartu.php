@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>DB Nanusa - Kartu Keluarga</title>
+    <title>Ikatan Keluarga Nanusa - Kartu Keluarga</title>
     <?php
     session_start();
     if (!isset($_SESSION['nama_adm'])) {
