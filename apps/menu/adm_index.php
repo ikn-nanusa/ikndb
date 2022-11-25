@@ -28,6 +28,10 @@ if (isset($_GET['page'])) {
     include('pages/perayaan.php');
   } else if ($_GET['page'] == 'edit_perayaan') {
     include('manage/edit_perayaan.php');
+  } else if ($_GET['page'] == 'keuangan') {
+    include('pages/keuangan.php');
+  } else if ($_GET['page'] == 'edit_keuangan') {
+    include('manage/edit_keuangan.php');
   } else if ($_GET['page'] == 'errpage') {
     include('pages/errpage.php');
   } else {

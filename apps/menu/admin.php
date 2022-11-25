@@ -81,7 +81,7 @@
                                        </a>
                                    </li>
                                    <li class="nav-item">
-                                       <a href="index.php?page=keluarga111" class="nav-link">
+                                       <a href="index.php?page=keluarga" class="nav-link">
                                            <i class="far fa-circle nav-icon"></i>
                                            <p>Laporan</p>
                                        </a>
@@ -97,19 +97,13 @@
                                </a>
                                <ul class="nav nav-treeview">
                                    <li class="nav-item">
-                                       <a href="index.php?page=jemaat111" class="nav-link">
+                                       <a href="index.php?page=keuangan" class="nav-link">
                                            <i class="far fa-circle nav-icon"></i>
-                                           <p>Kas Masuk</p>
+                                           <p>Transaksi</p>
                                        </a>
                                    </li>
                                    <li class="nav-item">
-                                       <a href="index.php?page=keluarga111" class="nav-link">
-                                           <i class="far fa-circle nav-icon"></i>
-                                           <p>Kas Keluar</p>
-                                       </a>
-                                   </li>
-                                   <li class="nav-item">
-                                       <a href="index.php?page=keluarga111" class="nav-link">
+                                       <a href="index.php?page=keuangan" class="nav-link">
                                            <i class="far fa-circle nav-icon"></i>
                                            <p>Laporan Keuangan</p>
                                        </a>
