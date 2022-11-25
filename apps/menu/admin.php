@@ -81,7 +81,7 @@
                                        </a>
                                    </li>
                                    <li class="nav-item">
-                                       <a href="index.php?page=keluarga" class="nav-link">
+                                       <a href="index.php?page=perayaan123" class="nav-link">
                                            <i class="far fa-circle nav-icon"></i>
                                            <p>Laporan</p>
                                        </a>
@@ -103,7 +103,7 @@
                                        </a>
                                    </li>
                                    <li class="nav-item">
-                                       <a href="index.php?page=keuangan" class="nav-link">
+                                       <a href="index.php?page=keuangan123" class="nav-link">
                                            <i class="far fa-circle nav-icon"></i>
                                            <p>Laporan Keuangan</p>
                                        </a>
