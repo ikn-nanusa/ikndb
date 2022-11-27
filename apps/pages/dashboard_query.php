@@ -1,9 +1,9 @@
 <?php
 $queries = mysqli_query($koneksi, "SELECT (
-SELECT count(*) from tbl_jemaat WHERE gender = 'Pria'
+SELECT count(*) from tbl_jemaat WHERE gender = 'Pria' AND stat_jmt = 'Aktif'
 ) as total_pria ,
 (
-SELECT count(*) from tbl_jemaat WHERE gender = 'Wanita'
+SELECT count(*) from tbl_jemaat WHERE gender = 'Wanita' AND stat_jmt = 'Aktif'
 ) AS total_wanita,
 (
 SELECT count(*) from tbl_jemaat WHERE stat_jmt = 'Aktif'
